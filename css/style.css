@@ -40,19 +40,16 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
 }
 .a35 .first{
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1000;
-    width: 100%;
 }
 .a35 .second{
     position: absolute;
     top: 2000px;
     left: 0;
     z-index: 1000;
-    width: 100%;
 }
