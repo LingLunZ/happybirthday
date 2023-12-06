@@ -6,46 +6,50 @@
 	scroll-behavior: smooth;
 	text-decoration: none;
 	list-style: none;
-    background-color: #cbd6cc;
     font-family: 'Ma Shan Zheng', cursive;
-}
-.main a{
-    display: block;
-	width: 320px;
-	height: 200px;
-	background-color: #849c92;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	-webkit-transform: translate(-50%,-50%);
-	    -ms-transform: translate(-50%,-50%);
-	        transform: translate(-50%,-50%);
-    border-radius: 8px;
-    box-shadow: 0px 0px 25px #687b73;
-    overflow: hidden;
-}
-.main a .top{
-    width: 320px;
-    height: 40px;
-    background-color: #e8ede5;
     position: relative;
 }
-.main a .top::after{
-    content: '';
-    width: 0;
-    height: 0;
-    display: block;
-    border-left: 160px solid transparent;
-    border-top: 100px solid #e8ede5;
-    border-right: 160px solid transparent;
+.a35 .bg{
     position: absolute;
-    bottom: -99px;
+    top: 0;
     left: 0;
+    width: 100%;
+}
+/* .a35 .a div{
+    position: absolute;
+    background-color: #fff;
+    width: 300px;
+    height: 150px;
+    top: 200px;
+    left: 200px;
+    z-index: 1000;
+} */
+.a36{
+    position: absolute;
+    top: 310px;
+    left: 125px;
+    width: 150px;
+    height: 120px;
 }
 /* happybirthday */
 .a35{
     width: 100%;
+    position: relative;
 }
-.a35 img{
-    object-fit:cover
+.a35 .bg1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.a35 .first{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.a35 .second{
+    position: absolute;
+    top: 2000px;
+    left: 0;
+    z-index: 1000;
 }
