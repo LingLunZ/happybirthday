@@ -5,32 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>生日快樂！</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <div class="a35">
         <img class="bg1" src="../image/bg.jpg" alt="">
-        <img class="first" src="../image/4.png" alt="">
-        <img class="first" src="../image/5.png" alt="">
-        <img class="first" src="../image/6.png" alt="">
-        <img class="first" src="../image/7.png" alt="">
-        <img class="first" src="../image/8.png" alt="">
-        <img class="first" src="../image/9.png" alt="">
-        <img class="first" src="../image/10.png" alt="">
-        <img class="first" src="../image/11.png" alt="">
-        <img class="first" src="../image/12.png" alt="">
-        <img class="first" src="../image/13.png" alt="">
-        <img class="second" src="../image/15.png" alt="">
-        <img class="second" src="../image/16.png" alt="">
-        <img class="second" src="../image/17.png" alt="">
-        <img class="second" src="../image/18.png" alt="">
-        <img class="second" src="../image/19.png" alt="">
-        <img class="second" src="../image/20.png" alt="">
-        <img class="second" src="../image/21.png" alt="">
-        <img class="second" src="../image/22.png" alt="">
-        <img class="second" src="../image/23.png" alt="">
-        <img class="second" src="../image/24.png" alt="">
-        <img class="second" src="../image/25.png" alt="">
-        <img class="second" src="../image/26.png" alt="">
+        <img data-aos="fade-up" data-aos-duration="300" class="first" src="../image/4.png" alt="">
+        <img data-aos="fade-up" data-aos-duration="500" class="first" src="../image/5.png" alt="">
+        <img data-aos="fade-up" data-aos-duration="700" class="first" src="../image/6.png" alt="">
+        <img data-aos="fade-up" data-aos-duration="1000" class="first" src="../image/7.png" alt="">
+        <img data-aos="fade-up" data-aos-duration="1200" class="first" src="../image/8.png" alt="">
+        <img data-aos="fade-up" data-aos-duration="1400" class="first" src="../image/9.png" alt="">
+        <img data-aos="fade-up" data-aos-duration="1600" class="first" src="../image/10.png" alt="">
+        <img data-aos="fade-up" data-aos-duration="1800" class="first" src="../image/11.png" alt="">
+        <img data-aos="fade-up" data-aos-duration="2000" class="first" src="../image/12.png" alt="">
+        <img data-aos="fade-up" data-aos-duration="2200" class="first" src="../image/13.png" alt="">
+        <img data-aos="fade-up" data-aos-duration="300" class="second" src="../image/15.png" alt="">
+        <img data-aos="fade-up" data-aos-duration="300" class="second" src="../image/16.png" alt="">
+        <img data-aos="fade-up" data-aos-duration="300" class="second" src="../image/17.png" alt="">
+        <img data-aos="fade-up" data-aos-duration="300" class="second" src="../image/18.png" alt="">
+        <img data-aos="fade-up" data-aos-duration="300" class="second" src="../image/19.png" alt="">
+        <img data-aos="fade-up" data-aos-duration="300" class="second" src="../image/20.png" alt="">
+        <img data-aos="fade-up" class="second" src="../image/21.png" alt="">
+        <img data-aos="fade-up" data-aos-duration="300" class="second" src="../image/22.png" alt="">
+        <img data-aos="fade-up" data-aos-duration="300" class="second" src="../image/23.png" alt="">
+        <img data-aos="fade-up" data-aos-duration="300" class="second" src="../image/24.png" alt="">
+        <img data-aos="fade-up" data-aos-duration="300" class="second" src="../image/25.png" alt="">
+        <img data-aos="fade-up" data-aos-duration="300" class="second" src="../image/26.png" alt="">
     </div>
+    <script>
+        AOS.init();
+        AOS.refresh();
+        document.addEventListener('aos:in', ({ detail }) => {
+        console.log('animated in', detail);
+        // ...
+        });
+
+        document.addEventListener('aos:out', ({ detail }) => {
+        console.log('animated out', detail);
+        // ...
+        });
+    </script>
 </body>
 </html>
